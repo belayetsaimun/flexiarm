@@ -30,6 +30,7 @@ A 6 Degrees of Freedom robotic arm designed for wireless operation via a smartph
 - [Calibration](#-calibration)
 - [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
+- [Team](#-team)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
@@ -88,7 +89,7 @@ A 6 Degrees of Freedom robotic arm designed for wireless operation via a smartph
 | PCA9685 | 1 | 16-Channel, 12-bit PWM | Servo driver module |
 | HC-05/HC-06 | 1 | Bluetooth 2.0 | Wireless communication |
 | MG996R Servo | 3 | High torque (10 kg·cm) | Base, shoulder, elbow joints |
-| SG90 Servo | 3 | Micro servo (1. 8 kg·cm) | Wrist and gripper |
+| SG90 Servo | 3 | Micro servo (1.8 kg·cm) | Wrist and gripper |
 | Power Supply | 1 | 5V/6V, 10A | External servo power |
 | Power Supply | 1 | 7-12V | Arduino power |
 | Jumper Wires | - | Male-to-Male, Male-to-Female | Connections |
@@ -151,7 +152,7 @@ A 6 Degrees of Freedom robotic arm designed for wireless operation via a smartph
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/flexiarm. git
+git clone https://github.com/yourusername/flexiarm.git
 cd flexiarm
 ```
 
@@ -162,13 +163,13 @@ Open Arduino IDE and install the required library:
 3. Click **Install**
 
 ### Step 3: Upload the Code
-1. Open `flexiarm. ino` in Arduino IDE
+1. Open `flexiarm.ino` in Arduino IDE
 2. Select **Board:** Arduino UNO
 3. Select the correct **Port**
 4. Click **Upload**
 
 ### Step 4: Install Mobile App
-1. Download the `FlexiArm.apk` file from the `app/` folder
+1. Download the `FlexiArm. apk` file from the `app/` folder
 2. Install on your Android device (enable "Install from unknown sources")
 3. Enable Bluetooth and pair with HC-05/HC-06 (default PIN: `1234` or `0000`)
 
@@ -292,7 +293,7 @@ int targetPwmValue = map(targetPos, 0, 180, 150, 700);
 ```
 
 ### Initial Positions
-Modify default startup positions in the code:
+Modify default startup positions in the code: 
 ```cpp
 int currentServoPositions[numServos] = {525, 375, 375, 375, 375, 390};
 ```
@@ -331,7 +332,7 @@ flexiarm/
 │
 ├── docs/
 │   ├── images/
-│   │   ├── flexiarm-robot.png
+│   │   ├── flexiarm-robot. png
 │   │   ├── wiring-diagram.png
 │   │   ├── app-screenshot-1.png
 │   │   └── app-screenshot-2.png
@@ -374,6 +375,46 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
+## 👥 Team
+
+<p align="center">
+  <b>Department of Electronics and Telecommunication Engineering</b><br>
+  <b>Chittagong University of Engineering and Technology (CUET)</b>
+</p>
+
+<table align="center">
+  <tr>
+    <th>Name</th>
+    <th>Student ID</th>
+  </tr>
+  <tr>
+    <td>Mueez Mejbah</td>
+    <td>2108010</td>
+  </tr>
+  <tr>
+    <td>Belayet Hossain Saimun</td>
+    <td>2108032</td>
+  </tr>
+  <tr>
+    <td>Sammaul Islam Siam</td>
+    <td>2108040</td>
+  </tr>
+  <tr>
+    <td>Mohammad Mesbahul Alam</td>
+    <td>2108043</td>
+  </tr>
+  <tr>
+    <td>Saklain Shuvo</td>
+    <td>2108044</td>
+  </tr>
+  <tr>
+    <td>Md. Hasibul Islam Jihad</td>
+    <td>2108048</td>
+  </tr>
+</table>
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -386,22 +427,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Reference:** [OmArTronics DIY 6-DOF Robotic Arm Tutorial](https://omartronics.com/diy-6-dof-robotic-arm-with-bluetooth-control-design-build-and-program/)
 - **Libraries:** Adafruit Industries for the PWM Servo Driver Library
 - **Tools:** MIT App Inventor for mobile app development
-
----
-
-## 👥 Team
-
-**Department of Electronics and Telecommunication Engineering**  
-**Chittagong University of Engineering and Technology (CUET)**
-
-| Student ID |
-|------------|
-| 2108010 |
-| 2108032 |
-| 2108040 |
-| 2108043 |
-| 2108044 |
-| 2108048 |
 
 ---
 
