@@ -1,7 +1,7 @@
 # FlexiArm:  A 6-DOF App-Controlled Industrial Manipulator
 
 <p align="center">
-  <img src="flexiarm-robot.png" alt="FlexiArm Robot Arm" width="300">
+  <img src="flexiarm.jpg" alt="FlexiArm Robot Arm" width="300">
 </p>
 
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
@@ -100,7 +100,7 @@ A 6 Degrees of Freedom robotic arm designed for wireless operation via a smartph
 ## 📐 Wiring Diagram
 
 <p align="center">
-  <img src="Connection.jpg" alt="Wiring Diagram" width="700">
+  <img src="Connection.jpg" alt="Wiring Diagram" width="300">
 </p>
 
 ### Connection Details
