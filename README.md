@@ -7,7 +7,7 @@
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
 [![MIT App Inventor](https://img.shields.io/badge/MIT_App_Inventor-FFA500?style=for-the-badge&logo=android&logoColor=white)](https://appinventor.mit.edu/)
 [![Bluetooth](https://img.shields.io/badge/Bluetooth-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)](https://www.bluetooth.com/)
-[![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg? style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 
 A 6 Degrees of Freedom robotic arm designed for wireless operation via a smartphone application using Bluetooth connectivity.  This project integrates electronics, mechanical design, and software development to create a versatile robotic system capable of performing complex tasks such as picking, placing, and manipulating objects in a 3D workspace.
 
