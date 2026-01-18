@@ -100,7 +100,7 @@ A 6 Degrees of Freedom robotic arm designed for wireless operation via a smartph
 ## 📐 Wiring Diagram
 
 <p align="center">
-  <img src="Connection.jpeg" alt="Wiring Diagram" width="700">
+  <img src="Connection.jpg" alt="Wiring Diagram" width="700">
 </p>
 
 ### Connection Details
