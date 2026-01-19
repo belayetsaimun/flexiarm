@@ -187,7 +187,7 @@ The **FlexiArm** controller app is built using **MIT App Inventor** and provides
 ### Building the App (Optional)
 If you want to customize the app:
 1. Open [MIT App Inventor](https://appinventor.mit.edu/)
-2. Import the `FlexiArm.aia` project file from `app/source/`
+2. Import the `flexiArm.aia` project file from the folder
 3. Modify the design or blocks as needed
 4. Build APK via **Build** → **App (provide QR code for . apk)**
 
@@ -338,7 +338,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Course Instructor:** Md. Farhad Hossain, Assistant Professor, Department of ETE, CUET
 <!--
@@ -350,9 +350,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  <b>Made with ❤️ for ETE 320 - Microprocessor and Microcontroller Sessional</b>
-</p>
-
-<p align="center">
-  <img src="docs/images/cuet-logo.png" alt="CUET Logo" width="80">
+  <img src="Cuet Transparent Logo.png" alt="CUET Logo" width="80">
 </p>
