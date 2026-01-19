@@ -292,59 +292,6 @@ const int stepSize = 1;    // PWM increment per step - decrease for smoother
 
 ---
 
-## 📁 Project Structure
-
-```
-flexiarm/
-├── flexiarm.ino              # Main Arduino sketch
-├── README.md                 # Project documentation
-├── LICENSE                   # MIT License
-│
-├── docs/
-│   ├── images/
-│   │   ├── flexiarm-robot. png
-│   │   ├── wiring-diagram.png
-│   │   ├── app-screenshot-1.png
-│   │   └── app-screenshot-2.png
-│   └── project-proposal.pdf
-│
-├── app/
-│   ├── FlexiArm.apk          # Android application (ready to install)
-│   └── source/
-│       └── FlexiArm. aia      # MIT App Inventor source file
-│
-├── 3d-models/                # STL files for 3D printing
-│   ├── base.stl
-│   ├── shoulder.stl
-│   ├── elbow.stl
-│   ├── wrist.stl
-│   └── gripper.stl
-│
-└── schematics/
-    └── circuit-diagram.fzz   # Fritzing schematic file
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Ideas for Contribution
-- [ ] Add inverse kinematics support
-- [ ] Implement Wi-Fi control (ESP32)
-- [ ] Add gesture control using accelerometer
-- [ ] Create iOS version of the app
-- [ ] Add object detection with camera
-
----
-
 ## 👥 Team
 
 <p align="center">
@@ -394,7 +341,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Course Instructor:** Md. Farhad Hossain, Assistant Professor, Department of ETE, CUET
+<!--
 - **Reference:** [OmArTronics DIY 6-DOF Robotic Arm Tutorial](https://omartronics.com/diy-6-dof-robotic-arm-with-bluetooth-control-design-build-and-program/)
+-->
 - **Libraries:** Adafruit Industries for the PWM Servo Driver Library
 - **Tools:** MIT App Inventor for mobile app development
 
