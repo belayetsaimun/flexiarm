@@ -155,6 +155,7 @@ The **FlexiArm** controller app is built using **MIT App Inventor** and provides
 <p align="center">
   <img src="app-screenshot.jpg" alt="FlexiArm App Main Screen" width="180">
   &nbsp;&nbsp;&nbsp;
+   <img src="app-screenshot1.jpeg" alt="FlexiArm App Main Screen" width="180">
 </p>
 
 ### App Interface Guide
@@ -249,46 +250,6 @@ R        → Clear all saved poses
 
 5. **Reset**
    - Tap **Reset** to clear all saved poses and start fresh
-
----
-
-## 🔧 Calibration
-
-### Servo PWM Calibration
-The default PWM range is 150-700 (mapped from 0-180°). Adjust in code if your servos require different values:
-
-```cpp
-// In processLastValue() function
-int targetPwmValue = map(targetPos, 0, 180, 150, 700);
-```
-
-### Initial Positions
-Modify default startup positions in the code: 
-```cpp
-int currentServoPositions[numServos] = {525, 375, 375, 375, 375, 390};
-```
-
-### Motion Smoothness
-Adjust these values for smoother or faster movement:
-```cpp
-const int stepDelay = 10;  // Delay between steps (ms) - increase for smoother
-const int stepSize = 1;    // PWM increment per step - decrease for smoother
-```
-
----
-
-## 🐛 Troubleshooting
-
-| Issue | Possible Cause | Solution |
-|-------|----------------|----------|
-| Servos not moving | No external power | Connect 5-6V supply to PCA9685 V+ terminal |
-| Bluetooth won't connect | Module not paired | Pair HC-05/HC-06 in phone settings first (PIN: 1234) |
-| App shows "Disconnected" | Wrong device selected | Ensure correct Bluetooth device is selected |
-| Jerky servo movement | Step size too large | Decrease `stepSize` or increase `stepDelay` |
-| Limited range of motion | PWM values incorrect | Adjust min/max in `map()` function (150-700) |
-| "Memory full" message | 10 poses already saved | Use Reset (R) command to clear poses |
-| Servos jitter at startup | Initial values wrong | Calibrate `currentServoPositions` array |
-| App crashes on connect | Bluetooth permissions | Grant location & Bluetooth permissions to app |
 
 ---
 
